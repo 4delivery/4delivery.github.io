@@ -58,7 +58,7 @@
         height: 100vh;
         z-index: 99999999;
         overflow: visible;
-        background: white url("loader.mp4") no-repeat center center;
+        background: white url("loader.gif") no-repeat center center;
         background-size: 600px;
     }
 
@@ -675,7 +675,7 @@
     <script>
         (function ($) {
             $(window).on('load', function () {
-                $("#loader").fadeOut("slow");
+                // $("#loader").fadeOut("slow");
 
                 $.instagramFeed({
                     'username': '4delivery_',
